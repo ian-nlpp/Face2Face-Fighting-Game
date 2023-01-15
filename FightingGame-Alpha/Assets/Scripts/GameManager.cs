@@ -164,12 +164,12 @@ public class GameManager : MonoBehaviour
         }
     }
 
-     // public void p2s()
+    public void p2s()
     {
         if (p2ctr>=1) {
             SceneManager.LoadScene(20);
             p1health -= 25f;
             p2ctr--;
         }
-    } //
+    }
 }
